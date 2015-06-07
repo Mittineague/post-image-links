@@ -14,6 +14,9 @@ This plugin currenly requires hacking the Core post.hbs file.
         {{/if}}
 ```  
 
+Links need to be right-click open-in-new to work else results in the No Permission page.  
+
+
 ## Installation
 
 Clone or Unzip the plugin folders into your Discourse plugins directory. 
