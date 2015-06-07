@@ -1,0 +1,6 @@
+# post-image-links
+
+en:
+  admin:
+    site_settings:
+      plugins: "Post Image Links"

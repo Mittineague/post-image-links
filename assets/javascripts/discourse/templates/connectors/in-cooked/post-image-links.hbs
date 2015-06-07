@@ -1,0 +1,9 @@
+{{#if Discourse.SiteSettings.post_image_links_active}}
+	<div class="post-image-links">
+		{{#if cooked}}
+			{{#if (post-image-links) }}
+        {{{ post-image-links cooked }}}
+      {{/if}}
+		{{/if}}
+	</div>
+{{/if}}

@@ -1,0 +1,6 @@
+# post-image-links
+
+plugins:
+  post_image_links_active:
+    default: false
+    client: true
