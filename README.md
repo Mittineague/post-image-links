@@ -1,21 +1,13 @@
 # post-image-links
 
-This plugin currenly requires hacking the Core post.hbs file.  
-```
- app/assets/javascripts/discourse/templates/post.hbs
-      <!-- keep the classes here in sync with composer.hbs -->
-      <div {{bind-attr class="showUserReplyTab:avoid-tab view.repliesShown::contents :regular view.extraClass"}}>
-        <div class='cooked'>
-          {{{cooked}}}
-		  {{plugin-outlet "in-cooked"}}
-        </div>
-        {{#if cooked_hidden}}
-          <a href {{action "expandHidden" this}}>{{i18n 'post.show_hidden'}}</a>
-        {{/if}}
-```  
+Shows a linked list of image filenames for images in a post other than quoted Avatars  
 
+![](https://raw.github.com/Mittineague/post-image-links/master/post-smilie-links.png)  
+
+# Known issues  
+This plugin currently over-rides the Core post.hbs file.  
+This is _NOT_ best practice as the plugin's post.hbs needs to be maintained to reflect any changes made in the Core post.hbs file.       
 Links need to be right-click open-in-new to work else results in the No Permission page.  
-
 
 ## Installation
 
