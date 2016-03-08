@@ -1,3 +1,6 @@
+# For historical reference only - Changes in the Discourse Core have rendered this plugin obsolete
+[Help us test our new post rendering engine!](https://meta.discourse.org/t/help-us-test-our-new-post-rendering-engine/39221?u=mittineague)
+
 # post-image-links
 
 Shows a linked list of image filenames for images in a post other than quoted Avatars  
